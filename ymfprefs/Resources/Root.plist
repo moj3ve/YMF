@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Remove some Suggested, Sponsored, Ads</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Youtube</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hius.ymfprefs</string>
+			<key>key</key>
+			<string>ytBgEnabled</string>
+			<key>label</key>
+			<string>Play in Background</string>
+			<key>PostNotification</key>
+			<string>com.hius.ymfprefs/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hius.ymfprefs</string>
+			<key>key</key>
+			<string>ytNadEnabled</string>
+			<key>label</key>
+			<string>No Video Ads</string>
+			<key>PostNotification</key>
+			<string>com.hius.ymfprefs/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Social Network</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hius.ymfprefs</string>
+			<key>key</key>
+			<string>fbEnabled</string>
+			<key>label</key>
+			<string>Facebook App</string>
+			<key>PostNotification</key>
+			<string>com.hius.ymfprefs/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hius.ymfprefs</string>
+			<key>key</key>
+			<string>mEnabled</string>
+			<key>label</key>
+			<string>Messenger App</string>
+			<key>PostNotification</key>
+			<string>com.hius.ymfprefs/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hius.ymfprefs</string>
+			<key>key</key>
+			<string>instaEnabled</string>
+			<key>label</key>
+			<string>Instagram</string>
+			<key>PostNotification</key>
+			<string>com.hius.ymfprefs/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hius.ymfprefs</string>
+			<key>key</key>
+			<string>twEnabled</string>
+			<key>label</key>
+			<string>Twitter</string>
+			<key>PostNotification</key>
+			<string>com.hius.ymfprefs/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hius.ymfprefs</string>
+			<key>key</key>
+			<string>redEnabled</string>
+			<key>label</key>
+			<string>Reddit</string>
+			<key>PostNotification</key>
+			<string>com.hius.ymfprefs/prefsupdated</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>YMF</string>
+</dict>
+</plist>
